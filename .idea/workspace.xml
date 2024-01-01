@@ -5,12 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c7b105-d0aa-44e6-9f00-f8914a0ef538" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,21 +37,141 @@
   "associatedIndex": 5
 }]]></component>
   <component name="ProjectId" id="2aKB1kRddBsLu3TkgCPFAvJGk4S" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.GetRequest.executor": "Run",
+    "JUnit.GetRequest02.executor": "Run",
+    "JUnit.GetRequest02.get01.executor": "Run",
+    "JUnit.GetRequest03.executor": "Run",
+    "JUnit.GetRequest03.get01.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/aonik/IdeaProjects/APICourseWorks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="getrequest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aonik\IdeaProjects\APICourseWorks" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="getrequest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GetRequest03.get01">
+    <configuration name="GetRequest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APICourseWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getrequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="getrequest" />
+      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest01" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APICourseWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getrequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="getrequest" />
+      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest02" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest02.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APICourseWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getrequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="getrequest" />
+      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest02" />
+      <option name="METHOD_NAME" value="get01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APICourseWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getrequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="getrequest" />
+      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest03" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest03.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APICourseWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getrequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="getrequest" />
+      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest03" />
+      <option name="METHOD_NAME" value="get01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetRequest03.get01" />
+        <item itemvalue="JUnit.GetRequest03" />
+        <item itemvalue="JUnit.GetRequest02.get01" />
+        <item itemvalue="JUnit.GetRequest02" />
+        <item itemvalue="JUnit.GetRequest01" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704057188279</updated>
-      <workItem from="1704057189376" duration="3000" />
+      <workItem from="1704057189376" duration="7546000" />
     </task>
     <servers />
   </component>
