@@ -8,6 +8,6 @@ public class DummyRestApi {
     protected RequestSpecification specification;
     @Before
     public void setUpBaseUrl(){
-        specification= new RequestSpecBuilder().setBaseUri("https://dummy.restapiexmaple.com/api/v2/employees").build();
+        specification= new RequestSpecBuilder().setBaseUri("https://dummy.restapiexmaple.com/api/v1").build();
     }
 }
