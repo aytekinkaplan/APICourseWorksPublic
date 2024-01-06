@@ -1,2 +1,4 @@
-package baseurl;public class DummyRestApi {
+package baseurl;
+
+public class DummyRestApi {
 }

@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c7b105-d0aa-44e6-9f00-f8914a0ef538" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseurl/GoRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/JsonToJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +31,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2aKB1kRddBsLu3TkgCPFAvJGk4S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,6 +50,9 @@
     "JUnit.GetRequest02.get01.executor": "Run",
     "JUnit.GetRequest03.executor": "Run",
     "JUnit.GetRequest03.get01.executor": "Run",
+    "JUnit.GetRequest04.get01.executor": "Run",
+    "JUnit.GetRequest05.executor": "Run",
+    "JUnit.GetRequest05.get05.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -84,53 +85,7 @@
       <recent name="getrequest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GetRequest03.get01">
-    <configuration name="GetRequest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APICourseWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="getrequest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="getrequest" />
-      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest01" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequest02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APICourseWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="getrequest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="getrequest" />
-      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest02" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequest02.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APICourseWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="getrequest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="getrequest" />
-      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest02" />
-      <option name="METHOD_NAME" value="get01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GetRequest05.get05">
     <configuration name="GetRequest03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APICourseWorks" />
       <extension name="coverage">
@@ -162,15 +117,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetRequest04.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APICourseWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getrequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="getrequest" />
+      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest04" />
+      <option name="METHOD_NAME" value="get01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APICourseWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getrequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="getrequest" />
+      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest05" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetRequest05.get05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APICourseWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="getrequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="getrequest" />
+      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest05" />
+      <option name="METHOD_NAME" value="get05" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetRequest05.get05" />
+        <item itemvalue="JUnit.GetRequest05" />
+        <item itemvalue="JUnit.GetRequest04.get01" />
         <item itemvalue="JUnit.GetRequest03.get01" />
         <item itemvalue="JUnit.GetRequest03" />
-        <item itemvalue="JUnit.GetRequest02.get01" />
-        <item itemvalue="JUnit.GetRequest02" />
-        <item itemvalue="JUnit.GetRequest01" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -181,6 +190,8 @@
       <option name="presentableId" value="Default" />
       <updated>1704057188279</updated>
       <workItem from="1704057189376" duration="7546000" />
+      <workItem from="1704108241715" duration="7192000" />
+      <workItem from="1704393311850" duration="8799000" />
     </task>
     <servers />
   </component>
