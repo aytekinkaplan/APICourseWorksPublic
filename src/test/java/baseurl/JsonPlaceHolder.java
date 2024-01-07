@@ -4,10 +4,11 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import org.junit.Before;
 
-public class DummyRestApi {
+public class JsonPlaceHolder {
     protected RequestSpecification specification;
+
     @Before
-    public void setUpBaseUrl(){
-        specification= new RequestSpecBuilder().setBaseUri("https://automationexercise.com/api/").build();
+    public void setUpBaseURL() {
+        specification = new RequestSpecBuilder().setBaseUri("https://jsonplaceholder.typicode.com").build();
     }
 }

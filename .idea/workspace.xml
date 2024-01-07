@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1c7b105-d0aa-44e6-9f00-f8914a0ef538" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseurl/GoRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/JsonToJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/baseurl/JsonPlaceHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest07_TestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest08_Pojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pojodata/GoRestPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/postrequest/Post01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testdata/JsonPlaceHolderTestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseurl/DummyRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseurl/DummyRestApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest06_JsonPath_Groovy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getrequest/GetRequest06_JsonPath_Groovy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -46,6 +53,7 @@
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.GetRequest.executor": "Run",
+    "JUnit.GetRequest01.executor": "Run",
     "JUnit.GetRequest02.executor": "Run",
     "JUnit.GetRequest02.get01.executor": "Run",
     "JUnit.GetRequest03.executor": "Run",
@@ -53,12 +61,22 @@
     "JUnit.GetRequest04.get01.executor": "Run",
     "JUnit.GetRequest05.executor": "Run",
     "JUnit.GetRequest05.get05.executor": "Run",
+    "JUnit.GetRequest06_JsonPath_Groovy.executor": "Run",
+    "JUnit.GetRequest07_TestData.executor": "Run",
+    "JUnit.GetRequest07_TestData.get07.executor": "Run",
+    "JUnit.GetRequest08_Pojo.executor": "Run",
+    "JUnit.GetRequest08_Pojo.get08.executor": "Run",
+    "JUnit.GetRequest08_Pojo.verifyUserDetails.executor": "Run",
+    "JUnit.GetRequest08_Pojo_Groovy.executor": "Run",
+    "JUnit.Post01.executor": "Run",
+    "JUnit.Post01.post01.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Post01.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -69,8 +87,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -85,8 +103,8 @@
       <recent name="getrequest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GetRequest05.get05">
-    <configuration name="GetRequest03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GetRequest01">
+    <configuration name="GetRequest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APICourseWorks" />
       <extension name="coverage">
         <pattern>
@@ -95,13 +113,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="getrequest" />
-      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest03" />
+      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest01" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest03.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetRequest08_Pojo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APICourseWorks" />
       <extension name="coverage">
         <pattern>
@@ -110,45 +128,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="getrequest" />
-      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest03" />
-      <option name="METHOD_NAME" value="get01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequest04.get01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APICourseWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="getrequest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="getrequest" />
-      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest04" />
-      <option name="METHOD_NAME" value="get01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetRequest05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APICourseWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="getrequest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="getrequest" />
-      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest05" />
+      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest08_Pojo" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest05.get05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetRequest08_Pojo.verifyUserDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APICourseWorks" />
       <extension name="coverage">
         <pattern>
@@ -157,8 +143,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="getrequest" />
-      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest05" />
-      <option name="METHOD_NAME" value="get05" />
+      <option name="MAIN_CLASS_NAME" value="getrequest.GetRequest08_Pojo" />
+      <option name="METHOD_NAME" value="verifyUserDetails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Post01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APICourseWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="postrequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="postrequest" />
+      <option name="MAIN_CLASS_NAME" value="postrequest.Post01" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Post01.post01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APICourseWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="postrequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="postrequest" />
+      <option name="MAIN_CLASS_NAME" value="postrequest.Post01" />
+      <option name="METHOD_NAME" value="post01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,20 +183,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GetRequest05.get05" />
-        <item itemvalue="JUnit.GetRequest05" />
-        <item itemvalue="JUnit.GetRequest04.get01" />
-        <item itemvalue="JUnit.GetRequest03.get01" />
-        <item itemvalue="JUnit.GetRequest03" />
+        <item itemvalue="JUnit.GetRequest01" />
+        <item itemvalue="JUnit.GetRequest08_Pojo" />
+        <item itemvalue="JUnit.Post01" />
+        <item itemvalue="JUnit.GetRequest08_Pojo.verifyUserDetails" />
+        <item itemvalue="JUnit.Post01.post01" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -191,11 +201,23 @@
       <updated>1704057188279</updated>
       <workItem from="1704057189376" duration="7546000" />
       <workItem from="1704108241715" duration="7192000" />
-      <workItem from="1704393311850" duration="8799000" />
+      <workItem from="1704393311850" duration="14329000" />
+      <workItem from="1704571783321" duration="19127000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
